@@ -26,9 +26,9 @@ const validator = {
   isValid: function () {
     // is creditCardNumber valid?
 
-    let ccn = Array.from(
+    let ccn = Array.from( //arreglo apartir de lo que está entre parentesis 
       //
-      String(document.getElementById("cardnumber").value),
+      String(document.getElementById("cardnumber").value),//
       Number
     );
     console.log("El array ccn contiene: " + ccn);
@@ -77,7 +77,7 @@ const validator = {
         return false;
       }
     } else {
-      alert("el numero que ingreso debe tener 16 dígitos");
+      alert("el número que ingresó debe tener 16 dígitos");
     }
   },
 
